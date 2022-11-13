@@ -1,0 +1,44 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+div{
+    font-family: 'Lato';
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #262930;
+    position:absolute;
+    width: 1200px;
+    height: 105px;
+
+}
+.navbar li{
+    float: right;
+    list-style: none;
+}
+.navbar ul{
+    overflow: auto;
+}
+.logo{
+    font-size: 42px;
+    font-weight: 700;
+    left: 35px;
+    width: 309px;
+    height: 105px;
+    font-family : lato;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    font-size: ;
+}
+
