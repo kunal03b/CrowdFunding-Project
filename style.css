@@ -13,7 +13,7 @@ div{
     justify-content: space-between;
     padding: 5px;
     background-color: #262930;
-    position:absolute;
+    /* position:absolute; */
     width: 97rem;
     height: 103px;
 
@@ -67,4 +67,40 @@ a:hover{
 .textbutton{
     background-color: #FA7A12;
 }
+
+/* ---------------------------------------Rectangle 2-------------------------- */
+.Box{
+    display: flex;
+    flex-direction: row;
+    background-color: #FEE4D0;
+    width: 100%;
+    height: 780px;
+    margin: auto;
+}
+
+.left{
+    padding-left: 73px;
+    padding-top: 174px;
+    font-family: 'Arvo';
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* .right{
+    padding-left: 784px;
+    padding-right: 32px;
+    padding-top: 103px;
+} */
+
+.LeftButtons{
+    display: flex;
+    flex-direction: row;
+}
+
+.LeftButtons a{
+    color: #fff;
+    font-family: 'Lato';
+}
+
+
 
