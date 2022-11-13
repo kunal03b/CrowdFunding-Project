@@ -5,17 +5,17 @@
 }
 
 div{
-    font-family: 'Lato';
+    font-family: 'Lato',;
 }
 .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 5px;
     background-color: #262930;
     position:absolute;
-    width: 1200px;
-    height: 105px;
+    width: 97rem;
+    height: 103px;
 
 }
 .navbar li{
@@ -36,9 +36,35 @@ div{
     display: flex;
     align-items: center;
     justify-content: center;
+    color:#fff;
 }
 .menu{
     display: flex;
-    font-size: ;
+    font-size:18px ;
+    font-weight: 400px;
+    justify-content: space-between;
+    padding: 55px;
+}
+
+.menu a{
+    color:#fff;
+/* margin: 0 -5px; */
+/* justify-content: space-around; */
+justify-content: space-around;
+padding: 25px;
+font-family: 'Lato';
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.button{
+    background-color: #FA7A12;
+    color:#fff;
+}
+.textbutton{
+    background-color: #FA7A12;
 }
 
