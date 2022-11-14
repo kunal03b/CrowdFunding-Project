@@ -86,11 +86,9 @@ a:hover{
     font-style: normal;
 }
 
-/* .right{
-    padding-left: 784px;
-    padding-right: 32px;
-    padding-top: 103px;
-} */
+.right{
+    margin-left: auto;
+    
 
 .LeftButtons{
     display: flex;
