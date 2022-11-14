@@ -1,29 +1,32 @@
-*{
-    margin : 0;
-    padding : 0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
 
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px;
+    padding: 20px;
     background-color: #262930;
     /* position:absolute; */
     width: 97rem;
     height: 103px;
 
 }
-.navbar li{
+
+.navbar li {
     float: right;
     list-style: none;
 }
-.navbar ul{
+
+.navbar ul {
     overflow: auto;
 }
-.logo{
+
+.logo {
     font-size: 42px;
     font-weight: 700;
     left: 35px;
@@ -34,40 +37,45 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color:#fff;
+    color: #fff;
 }
-.menu{
+
+.menu {
     display: flex;
-    font-size:18px ;
+    font-size: 18px;
     font-weight: 400px;
     justify-content: space-between;
     padding: 55px;
     line-height: 50px;
 }
 
-.menu a{
-    color:#fff;
-/* margin: 0 -5px; */
-/* justify-content: space-around; */
-justify-content: space-around;
-padding: 25px;
-font-family: 'Lato';
+.menu a {
+    color: #fff;
+    /* margin: 0 -5px; */
+    /* justify-content: space-around; */
+    justify-content: space-around;
+    padding: 25px;
+    font-family: 'Lato';
 }
-a:link{
+
+a:link {
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
 }
-.button{
+
+.button {
     background-color: #FA7A12;
-    color:#fff;
+    color: #fff;
 }
-.textbuton{
+
+.textbuton {
     background-color: #FA7A12;
 }
 
-#donateButton{
+#donateButton {
     width: 120px;
     height: 50px;
     background-color: #FA7A12;
@@ -79,7 +87,7 @@ a:hover{
 }
 
 /* ---------------------------------------Rectangle 2-------------------------- */
-.Box{
+.Box {
     display: flex;
     flex-direction: row;
     background-color: #FEE4D0;
@@ -88,7 +96,7 @@ a:hover{
     margin: auto;
 }
 
-.left{
+.left {
     padding-left: 73px;
     padding-top: 174px;
     font-family: 'Arvo';
@@ -97,7 +105,7 @@ a:hover{
     font-style: normal;
 }
 
-.left h1{
+.left h1 {
     font-weight: 700;
     font-size: 64px;
     font-style: normal;
@@ -105,22 +113,22 @@ a:hover{
     color: #2C2B2B;
 }
 
-#para{
+#para {
     font-size: 26px;
     color: #302F2F;
 }
 
-.right{
+.right {
     margin-left: auto;
-}  
+}
 
-#money{
+#money {
     position: absolute;
     width: 29rem;
     height: 32.125rem;
     left: 64rem;
     top: 12rem;
-    
+
 }
 
 .donateButtonn {
@@ -132,11 +140,10 @@ a:hover{
     margin-right: 30px;
     width: 150px;
     line-height: 60px;
-  }
+}
 
-.rec1 li{
+.rec1 li {
     display: flex;
     list-style: none;
     justify-content: space-between;
 }
-
